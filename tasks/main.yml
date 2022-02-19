@@ -1,6 +1,5 @@
 ---
 # tasks file for hemanth22.vault
----
 - name: Download hashicorp.conf
   get_url:
     url: https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
