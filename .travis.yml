@@ -4,9 +4,9 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: vsftpd
+    - ROLE_NAME: vault
   matrix:
-    - MOLECULE_DISTRO: centos7
+    - MOLECULE_DISTRO: centos8
 
 install:
   - pip install molecule yamllint ansible-lint ansible molecule[docker] docker
